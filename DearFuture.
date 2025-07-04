@@ -1,0 +1,6 @@
+DearFuture/
+├── index.html       ← This is your main HTML file
+├── style.css        ← This is your CSS styling file
+└── assets/          ← This is a folder for images
+    ├── logo.png     ← Your logo image (you sent earlier)
+    └── background.jpg  ← Your background image
