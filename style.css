@@ -1,47 +1,66 @@
+/* style.css */
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    font-family: 'Arial', sans-serif;
     background-image: url('assets/background.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
+    text-shadow: 1px 1px 4px #000;
 }
 
 header {
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
 }
 
 .logo {
-    max-width: 200px;
+    width: 250px;
+    max-width: 80%;
+    filter: none; /* Ingen filter längre */
 }
 
 main {
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.4); /* Svart transparens bakom texten */
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 900px;
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
 }
 
-form input, form textarea, form button {
+h1, h2 {
+    color: #fff;
+}
+
+form input,
+form textarea,
+form button {
     width: 100%;
+    max-width: 500px;
     padding: 10px;
-    margin-top: 10px;
+    margin: 0.5rem 0;
+    border-radius: 6px;
     border: none;
-    border-radius: 5px;
+    font-size: 1rem;
 }
 
 form button {
-    background-color: #00bfff;
+    background-color: #1e90ff;
     color: white;
-    font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-weight: bold;
 }
 
-form button:hover {
-    background-color: #009acd;
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
 }
